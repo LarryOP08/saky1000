@@ -1,5 +1,5 @@
 {
-  "name": "sakymc",
+  "name": "djlarryino",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.8.0",
+    "@distube/soundcloud": "^1.1.0",
+    "@distube/spotify": "^1.2.1",
+    "@distube/yt-dlp": "^1.0.2",
     "discord.js": "^13.6.0",
-    "ms": "^2.1.3"
+    "distube": "^3.3.3",
+    "libsodium-wrappers": "^0.7.10"
   }
 }
