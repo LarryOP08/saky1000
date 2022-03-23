@@ -3,7 +3,7 @@ const client = new Discord.Client({
     intents: ["GUILD_VOICE_STATES", "GUILD_MEMBERS", "GUILD_MESSAGES", "GUILDS"]
 })
 
-client.login("OTU1NDg3NDQ4MTExMTMyNzEy.YjiZBw.4bW_w7y4q3q78y6e9MorexoRJPI")
+client.login(process.emv.Larry)
 
 client.on("ready", () => {
     console.log("BotONLINE")
